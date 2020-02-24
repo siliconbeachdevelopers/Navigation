@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box; 
 }
+body {
+    background: black;
+    -webkit-font-smoothing: antialiased;
+}
  nav {
     display: flex;
     justify-content: space-around;
@@ -10,6 +14,7 @@
     min-height: 8vh;
     background-color: #5d4954;
     font-family: 'Poppins', sans-serif ;
+    -webkit-font-smoothing: antialiased;
 }
 .logo{
     color: whitesmoke;
@@ -28,6 +33,7 @@
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
+   
 }
 .navlinks li{
     list-style: none;
@@ -48,6 +54,7 @@
 @media screen and (max-width:768px){
     body {
         overflow-x: hidden;
+        
     }
     .navlinks{
         position: absolute;
@@ -61,6 +68,7 @@
         width:20%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        
         
     }
     .navlinks li{
