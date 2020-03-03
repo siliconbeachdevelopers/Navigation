@@ -59,7 +59,7 @@ body {
     .navlinks{
         position: absolute;
         right: 0px;
-        height: 65%;
+        height: 60%;
         top: 3vh;
         background-color: #5d4954;
         display: flex;
