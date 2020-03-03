@@ -59,13 +59,13 @@ body {
     .navlinks{
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 65%;
+        top: 3vh;
         background-color: #5d4954;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width:20%;
+        width:30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         
